@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>
+Write Extremums
+</title>
+</head>
+	<body>
+		<h1 align="center"><b>Enter Extremums</b></h1>
+		<br/>
+		<form action="../createGraphicPoExtremumam" method="get" class="Form">
+			<div align="center">
+				<textarea name="ExtremumsforGraphic" style="height:60px;">A(1,2);B(2,3)</textarea>
+			<br/>
+			<div align="center">
+				Line size
+			</div>
+			<br/>
+			<input type="range" max="10" min="1" value="2" name="EquationForGraphicSize">
+			<br/>
+			<div align="center">
+				Center coordinates:
+			</div>
+			<br/>
+			<div align="center">
+				X:
+			</div>
+			<input type="text" name="CenterCoordinateX" value="0" align="center">
+			<br/>
+			
+			<div align="center">
+				Y:
+			</div>
+			<input type="text" name="CenterCoordinateY" value="0" align="center">
+			<br/>
+			<span align="center">
+				Scale(1 ed = ...):
+			</span>
+			<input type="text" name="Scale" value="1" align="center">
+			<br/>			
+			<input type="submit" value="Submit"/></div>
+		</form>
+		
+<!--		
+		<div style="position: absolute; top:20px; left:1200px;">
+			<input type="checkbox" onclick="showParameterTextArea()"/>
+			 Are parameters
+			</br>
+			<textarea style="display:none; height: 80px; width: 120px;" id="paraminp" name="paramInp"></textarea>
+			<br/>
+			<div style="color: lightgray; display: none;" id="paramtext">Koefecients starts with x<sub>n</sub>, where need to get koefs write "--"</div>
+		</div>
+-->
+		
+		<a href="../choisToolPage.html"> Return</a> 
+		<br/> <br/> 
+		<div style="color: lightgrey;" align="left">For Example:
+				<br/>
+				A(x<sub>A</sub>, y<sub>A</sub>);<br/>
+				B(x<sub>B</sub>, y<sub>B</sub>);
+				</div>
+</html>

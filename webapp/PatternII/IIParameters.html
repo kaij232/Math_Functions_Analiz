@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>II Parameters</title>
+	<script src="../JSFunctions.js"></script>
+</head>
+<body>
+<h1 align="center">Set Parameters</h1>
+<form action="../PatternIIPageCreater" method="get">
+	<span>
+<div>Layers Powers
+	<br/> 
+	<textarea name="LayersPowers"></textarea>
+</div>
+<div>
+	<select onchange="changeDataType()" id="dataType" name="dataType"><option>Path to Parameters</option><option>Path to data</option><option>Write data</option></select>
+	<br/>
+	<div id="inputDataParams">
+		<input id="fileName" type="file" onchange="setPath()">
+		<br/>
+		<textarea id="PathArea" name="Path to Parameters">D:\DevelopingPrograms\eclipse\workspace\MathAndDataSciensTools.web\src\main\java\II_Functions\ParemetersFolder\MainParameters.txt</textarea>
+	</div>
+</div> 
+<div id="StudyParameters"></div> 
+	<div>
+		Input
+		<br/> 
+		<textarea name="Input"></textarea>
+	</div>
+	</span>
+<br/>
+
+<input type="submit" value="submit">
+</form>
+<a href="../choisToolPage.html"> Return</a> 
+</body>
+</html>
